@@ -28,8 +28,8 @@ public class EyesService extends Service implements LocationListener {
     private LocationManager locationManager;
     private Handler handler;
     private Runnable telemetryRunnable;
-    private String supabaseUrl = "YOUR_SUPABASE_URL";
-    private String supabaseKey = "YOUR_SUPABASE_ANON_KEY";
+    private String supabaseUrl = "https://wagvbmkimpswiidnenwx.supabase.co";
+    private String supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndhZ3ZibWtpbXBzd2lpZG5lbnd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE2MjE3MzAsImV4cCI6MjEwNzE5NzczMH0.2SjJOiWFueeRsC4aEWCOGNcOTWJTGBLhhjqzRgjlcT8";
     private String deviceId = "luna_device_01";
 
     @Override
